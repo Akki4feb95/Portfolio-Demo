@@ -145,24 +145,6 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
-             <script src="https://smtpjs.com/v3/smtp.js" ></script>
-			 <script>
-				function sendEmail(){
-					Email.send({
-						Host : "smtp.gmail.com",
-						Username : "akshaybhor202@gmail.com",
-						Password : "akshay4feb95@gmail.com",
-						To : 'akshaybhor202@gmail.com',
-						From : document.getElementById("email").value,
-						Subject : "New Contact form enquiry",
-						Body : "Name: " + document.getElementById("name").value
-						+ " Email: " + document.getElementById("email").value
-						+ " Subject: " + document.getElementById("subject").value
-						+ " Message: " + document.getElementById("message").value
-					    }).then(
-					    message => alert("Message Sent Successfully")
-					    );
-				    }
-			 </script>
+            
 	</body>
 </html>
